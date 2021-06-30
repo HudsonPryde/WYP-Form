@@ -1,0 +1,18 @@
+// SQL TABLE SCHEMA //
+CREATE TABLE user_info (
+  id int NOT NULL AUTO_INCREMENT,
+  first_name varchar(255) NOT NULL,
+  last_name varchar(255) NOT NULL,
+  email varchar(255) NOT NULL,
+  pass varchar(255) NOT NULL,
+  phone_num varchar(12) NOT NULL,
+  address varchar(255) NOT NULL,
+  city varchar(255) NOT NULL,
+  country varchar(255) NOT NULL,
+  province varchar(255) NOT NULL,
+  PRIMARY KEY (id)
+);
+///////////////////////
+
+INSERT INTO user_info (first_name, last_name, email, pass, phone_num, address, city, country, province)
+VALUES ('Hudson', 'Stuart', 'Hhudson.Stuart@ryerson.ca', 'password', '111-111-1111', '1 parr st', 'toronto', 'canada', 'on');
