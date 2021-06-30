@@ -8,6 +8,6 @@ npm install
 
 ### Start the server
 ```
-python app.py
+python server/app.py
 npm run serve
 ```
